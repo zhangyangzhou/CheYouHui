@@ -1,0 +1,83 @@
+﻿body { 
+font: 12px/1.5 arial,宋体; 
+} 
+html, body { 
+color: #333333; 
+} 
+li.vl-item { 
+float: left; 
+width: 100%; 
+} 
+.app-vote ul, .app-vote ol, .app-vote li, .app-vote dl, .app-vote dt, .app-vote dd, .app-vote form, .app-vote p, .app-vote h1, .app-vote h2, .app-vote h3 { 
+margin: 0; 
+padding: 0; 
+} 
+.app-vote em { 
+font-style: normal; 
+} 
+.app-vote ul, .app-vote ol { 
+list-style: none outside none; 
+} 
+.vote-box-list { 
+float: left; 
+width: 100%; 
+} 
+#appVote .vote-action { 
+margin-top: 30px; 
+width: 60px; 
+} 
+.vote-box-list li { 
+list-style: none outside none; 
+} 
+.vote-box-list li .vote-item-wrap { 
+} 
+.vote-box-list li.over { 
+background-color: #FFE57F; 
+} 
+.vote-box-list li h4 { 
+font-size: 1em; 
+font-weight: normal; 
+overflow: hidden; 
+width: 100%; 
+word-wrap: break-word; 
+margin: 5px 0;
+} 
+.vote-box-list li .litem { 
+background: none repeat scroll 0 0 #EFEFEF; 
+border: 1px solid #E2E2E2; 
+height: 12px; 
+width: 70%; 
+} 
+.vote-box-list li p{ 
+	float: left; 
+	margin: 0; 
+	padding: 0; 
+} 
+.vote-box-list li p input { 
+float: left; 
+margin: 0; 
+} 
+.vote-box-list li em, .vote-box-list li span { 
+float: left; 
+height: 11px; 
+overflow: hidden; 
+} 
+.vote-box-list li .vleft, .vote-box-list li .right { 
+width: 2px; 
+} 
+.vnum { 
+text-indent: 5px; 
+width: 30%; 
+height: 20px !important;
+} 
+ul.vote-ctrl-act-sep { 
+margin: 5px 0; 
+overflow: hidden; 
+} 
+ul.vote-ctrl-act-sep li { 
+border-bottom: medium none; 
+border-right: 1px solid #000000; 
+float: right; 
+margin-right: -1px; 
+} 
+
